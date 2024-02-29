@@ -8,3 +8,5 @@ select sum(sales.transactions.sales_amount) from sales.transactions inner join s
 where sales.date.year=2020 and sales.transactions.market_code="Mark001"; -- mark001 code is for chennai
 
 select distinct product_code from sales.transactions where market_code="Mark001";
+
+select distinct product_code from sales.transactions where market_code="Mark002";
